@@ -47,5 +47,5 @@ while True:
         adiciona_produto(produto)
         
     if opcao == 3:
-        produto = (int(input("Digite o produto que deseja remover ")))
+        produto = (int(input("Digite o vetor do produto que deseja remover ")))
         remove_produto(produto)
