@@ -12,9 +12,9 @@ def adiciona_produto(produto):
         produtos.append(produto)
                 
 def remove_produto(produto):
-    if (produto in produtos):
-        produtos.remove(produto)
-    else:
+    try:
+        produtos.pop(produto)
+    except:
         print ("Produto não existe")
 
 while True:
@@ -43,9 +43,9 @@ while True:
         pesquisar_produtos()
         
     if opcao == 2:
-        produto = (input("Digite o produto que deseja adicionar"))
+        produto = (input("Digite o produto que deseja adicionar "))
         adiciona_produto(produto)
         
     if opcao == 3:
-        produto = (input("Digite o produto que deseja remover"))
+        produto = (int(input("Digite o produto que deseja remover ")))
         remove_produto(produto)
