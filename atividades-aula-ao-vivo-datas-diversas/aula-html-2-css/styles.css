@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+}
+
+div {
+    background-color: blue;
+    color: white;
+    padding: 65px;
+    margin: 34px;
+    border: 8px solid gold;
+}
+
+.caixa-meio {
+    padding: 20px 40px 60px 80px;
+    margin: 80px 60px 40px 20px;
+    border: 20px solid gold;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+}
